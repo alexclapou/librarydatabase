@@ -1,0 +1,10 @@
+123, Pacienta tacuta, Alex Michaelides
+401, Ion, Liviu Rebreanu
+42, Harry Potter, Joanne Rowling
+100, Dincolo de stele, Kristin Hannah
+50, Vaduva de safir, Dinah Jefferies
+150, Urzeala tronurilor, George Martin
+1, Poezii, Mihai Eminescu
+10, Amintiri din copilarie, Ion Creanga
+13, Stralucirea, Stephen King
+4, Sotia imperiala, Irina Reyn

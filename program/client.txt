@@ -1,0 +1,10 @@
+1, Alex
+2, Adi
+3, Carmen
+4, Maka
+5, Semaca
+6, Defe
+7, Makelele
+8, Oana
+9, Denisa
+10, Razvan

@@ -1,0 +1,26 @@
+from ui import *
+from init_files import FilesInit
+from textrepository import *
+import configparser
+
+u = UndoController()
+config = configparser.ConfigParser()
+config.read("settings_text.ini")
+print(config.sections())
+
+
+
+FilesInit("book.txt", "client.txt", "rent.txt")#restore the file values
+Books = BookTextRepo("book.txt")
+Rentals = RentTextRepo("rent.txt")
+Clients = ClientTextRepo("client.txt")
+
+
+
+
+b = BookService(u, Books, Rentals)
+c = ClientService(u,Clients, Rentals)
+r = RentService(Rentals, u)
+ui = UI(b, c, r, u)
+ui.start()
+

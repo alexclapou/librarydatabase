@@ -1,0 +1,6 @@
+[DEFAULT]
+repository = CSV
+[repositories]
+books = book.txtt
+clients = client.txt
+rentals = rental.txt
